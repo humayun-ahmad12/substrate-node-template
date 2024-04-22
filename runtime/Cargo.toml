@@ -12,6 +12,10 @@ publish = false
 [lints]
 workspace = true
 
+[dependencies.pallet-treasury]
+default-features = false
+version = '3.0.0'  # Use the version compatible with your Substrate version
+
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
 
